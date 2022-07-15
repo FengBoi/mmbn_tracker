@@ -1,7 +1,7 @@
 import { bn6cities } from '../enum/cities/bn6cities.enum';
 import { bn6HpMemory } from '../models/games/bn6Models';
 
-const bn6HpMemoryDataJP: bn6HpMemory[] = [
+export const bn6HpMemoryDataJP: bn6HpMemory[] = [
     {
         description: "Central Area 2 - NetDealer 1000z",
         city: bn6cities.Central
@@ -27,11 +27,11 @@ const bn6HpMemoryDataJP: bn6HpMemory[] = [
         city: bn6cities.Central
     },
     {
-        description: "Expo Pavilion Operator Navi Selection Test - Round 1",
+        description: "Expo Pavilion Operator Test - Round 1",
         city: bn6cities.Central
     },
     {
-        description: "Expo Pavilion Operator Navi Selection Test - Round 3",
+        description: "Expo Pavilion Operator Test - Round 3",
         city: bn6cities.Central
     },
     {
@@ -72,8 +72,7 @@ const bn6HpMemoryDataJP: bn6HpMemory[] = [
         city: bn6cities.Seaside
     },
     {
-        description: "Control Room",
-        extraInfo: "Exaime the Ladder",
+        description: "Control Room - Ladder",
         city: bn6cities.Seaside
     },
     {
@@ -97,8 +96,7 @@ const bn6HpMemoryDataJP: bn6HpMemory[] = [
         city: bn6cities.GreenTown
     },
     {
-        description: "OpRoom",
-        extraInfo: "Examine the air tanks",
+        description: "OpRoom - Air tanks",
         city: bn6cities.SkyTown
     },
     {
@@ -162,5 +160,3 @@ const bn6HpMemoryDataJP: bn6HpMemory[] = [
         city: bn6cities.Other
     },
 ]
-
-export default bn6HpMemoryDataJP
