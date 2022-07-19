@@ -1,3 +1,3 @@
-export interface baseNavicustMemory {
+export interface baseOtherMemory {
     description: string,
 }
