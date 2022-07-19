@@ -1,4 +1,4 @@
 export interface baseHpMemory {
-    "description": string,
-    "extraInfo"?: string
+    description: string,
+    collected: boolean
 }
